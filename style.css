@@ -1,0 +1,90 @@
+body{
+    font-family:  Arial, sans-serif;
+}
+.ust-menu nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.ust-menu a{
+    display: inline-block;
+    font-size: 13px;
+    color: black;
+    opacity: 0.55;
+    text-decoration: none;
+    line-height: 28px;
+    padding: 0px 3px;
+}
+.ust-menu a.mavi-buton{
+    display: inline-block;
+    background-color: #4285f4;
+    color: white;
+    padding: 0px 12px;
+    opacity: 1;
+
+}
+
+.ust-sol-menu a{
+    margin-right: 5px;
+}
+
+.ust-sag-menu a{
+    margin-left: 5px;
+}
+.logo{
+    text-align:center;
+    padding-top: 109px;
+    height: 92px;
+}
+.aramacubugu{
+    border:  1px solid #dfe1e5;
+    box-shadow:none;
+    border-radius:  24px;
+    background: #fff;
+    display: flex;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+    width: 482px;
+    width: 582px;
+    flex: 1;
+    display: flex;
+    padding: 5px 8px 0 16px;
+    padding-left: 14px;
+    font-size: small;
+    position: relative;
+    margin: 0 auto;
+    padding-top: 6px;
+    width: 484px;
+    justify-content: space-between;
+    margin-top: 25px;
+    align-items: center;
+}
+   .aramacubugu input{
+border: none;
+outline: none;
+   }
+   .butonlar{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    
+   }
+   .butonlar input{
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+   }
